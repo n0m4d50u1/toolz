@@ -100,3 +100,6 @@
 
 `nmap -p80,443 10.0.0.1 -oG - | nikto.pl -h -`
 
+#### Enumarate SMB shares
+
+`nmap -sV --script=smb-enum-shares -p445 10.10.10.10`
