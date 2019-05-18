@@ -88,6 +88,10 @@
 
 `locate nse | grep script`
 
+#### Script info
+
+`nmap --script-help=<SCRIPT_NAME>`
+
 #### Standard script scan
 
 `nmap -sV -sC 10.0.0.1`
